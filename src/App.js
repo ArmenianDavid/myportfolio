@@ -9,14 +9,14 @@ const App = () =>{
   return(
     <div className="demo-big-content">
     <Layout>
-        <Header className='header-color' title={<Link style={{textDecoration:'none' , color:'white'}} to="/">MyPortfolio</Link>} scroll>
+        <Header className='header-color' title={<Link style={{textDecoration:'none' , color:'white'}} to="/myportfolio">MyPortfolio</Link>} scroll>
             <Navigation>
                 <Link to="/resume">Resume</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contacts</Link>
             </Navigation>
         </Header>
-        <Drawer title={<Link style={{textDecoration:'none' , color:'blue'}} to="/">MyPortfolio</Link>}>
+        <Drawer title={<Link style={{textDecoration:'none' , color:'blue'}} to="/myportfolio">MyPortfolio</Link>}>
             <Navigation>
                 <Link to="/resume">Resume</Link>
                 <Link to="/projects">Projects</Link>
