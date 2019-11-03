@@ -4,43 +4,57 @@ import avatar from '../img/avatar.jpg'
 import Education from './Common/Education'
 import Experiance from './Common/Experiance'
 import Skills from './Common/Skills'
+import {engData} from './Data/engData'
+import {rusData} from './Data/rusData'
 
 
 class Resume extends Component{
     constructor(){
       super()
       this.state={
-
+          language : 'eng',
+          data : engData,
       }
+      this.changeLanguage=this.changeLanguage.bind(this)
     }
 
+    changeLanguage(){
+       if(this.state.language === 'eng'){
+         return this.setState({
+           language : 'rus',
+           data : rusData,
+         })
+         }else{
+           return this.setState({
+             language : 'eng',
+             data : engData,
+           })
+         }
+       }
+    
+    
+
     render(){
+      const {data} = this.state
       return(
         <div>
           <Grid>
-
+                
                 <Cell  col={4}  >
                   <div className='resume-left-div'>
                      <img src={avatar} alt='avatar' className='resume-avatar'/>
                   </div>
-
-                  <h2 className='resume-fullname'>Davit Sahakyan</h2>
-                  <h4 className='resume-profession'>Programmer</h4>
+                  <button style={{color : 'blue'}} onClick={this.changeLanguage}>{this.state.language}</button>
+                  <h2 className='resume-fullname'>{this.state.data.resume_fullname}</h2>
+                  <h4 className='resume-profession'>{this.state.data.resume_profession}</h4>
                   <hr className='resume-hr'/>
-                  <p>Hello i am Davit. I am Front-end web developer.These are the  technologies in programming that i 
-                    can use. <strong>HTML</strong>, use its tags with <strong>CSS</strong>. Can 
-                    make <strong>Responsive design</strong>(your website
-                    would display equally well in everything from widescreen monitors to mobile phones).Can use <strong>
-                    Bootstrap</strong>, wich is an open source toolkit for developing with HTML, CSS, and JS. <strong>
-                    JS</strong> and library <strong>React</strong>.Can fetch data from API-s and show to the
-                    web page and more...
-                  </p>
+                   {this.state.data.resume_info}
                   <hr className='resume-hr'/>
-                  <h5>Addres</h5>
-                  <p>Armenia Yerevan Sose 2/2 </p>
-                  <h5>Phone</h5>
+                  <h5>{this.state.data.address}</h5>
+                  <p>{data.place} </p>
+                  <h5>{data.phone}</h5>
                   <p>(+374) 98 00 00 65</p>
-                  <h5>Email</h5>
+                  <h5>{data.mail}</h5>
                   <p>sahakyandavit92@gmail.com</p>
                   <hr className='resume-hr' />
                 </Cell>
@@ -50,39 +64,47 @@ class Resume extends Component{
 
 
                 <Cell className='resume-right-col' col={8}  >
-                   <h2>Education</h2>
+                   <h2>{this.state.data===engData ? 'Education' : 'Образование'}</h2>
                    <Education 
                       startYear='2015' 
                       endYear='2017' 
-                      schoolName='Armenian State University of Economics'
-                      schoolDescription="Business management specialization, Master’s degree"
+                      schoolName={
+                        this.state.data===engData ?
+                       'Armenian State University of Economics' : 'Армянский государственный экономический университет'}
+                      schoolDescription={
+                        data=== engData ? "Business management specialization, Master’s degree" : 'Управление бизнесом магистрант'}
                       />
                    <Education 
                       startYear='2018' 
                       endYear='2019' 
-                      schoolName='Basic It Center'
+                      schoolName={data === engData ? 'Basic It Center' : 'Бейсик  ай ти центр' }
                       schoolDescription="Html , Css , Js , React"
                       />
                    <Education 
                       startYear='2019' 
-                      endYear='present' 
-                      schoolName='ACA(Armenian Code Academy)'
+                      endYear={data === engData ? 'present'  : 'настоящее время' }
+                      schoolName={data === engData ? 'ACA(Armenian Code Academy)' : 'АКА(Армениан код академи)' }
                       schoolDescription=" Js , React"
                       />  
                       <hr className='resume-hr'/>
-                      <h2>Experiance</h2>
+                      <h2>{data === engData ? 'Experiance' : 'Опыт работы' }</h2>
                     <Experiance 
                        startYear='2016'
                        endYear='2018'
-                       workName='Sales Manager'
-                       workDescription='Working at Arantsk I learned how to work in a team and it was an
+                       workName={data === engData ?  'Sales Manager' : 'Менеджер по продажам' }
+                       workDescription={data === engData ? 
+                        `Working at Arantsk I learned how to work in a team and it was an
                        interesting and good experience for me. My duty was to understand
                        what my clients wanted and to offer them our best suggestions. I
                        calculated how much materials they needed and arranged the
-                       delivery.'
+                       delivery`  :
+                        `Работая в Арантске я научился работать в команде и это был интересный и хороший опыт для меня.
+                        Я должен был понимать что хотят клиенты и предложить самые подходящие им варианты. Считал сколько 
+                        материалов им нужно и обеспечивал доставку` }
+                       
                     />
                       <hr className='resume-hr'/>
-                      <h2>Skills</h2>
+                      <h2>{data === engData ?  'Skills' : 'Навыки' }</h2>
                     <Skills skill='Html' progress={70}/>
                     <Skills skill='Css' progress={60}/>
                     <Skills skill='Js' progress={50}/>

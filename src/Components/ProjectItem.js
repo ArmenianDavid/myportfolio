@@ -14,7 +14,7 @@ const ProjectItem = () =>{
               </CardText>
 
               <CardActions border>
-                <Button colored> GitHub</Button>
+                <Button colored> <a href='https://armeniandavid.github.io/project2/'> GitHub </a> </Button>
                 <Button colored> Codepen</Button>
                 <Button colored> LiveDemo</Button>
               </CardActions>
@@ -33,7 +33,7 @@ const ProjectItem = () =>{
               </CardText>
 
               <CardActions border>
-                <Button colored> GitHub</Button>
+                <Button colored> <a href='https://armeniandavid.github.io/Crypto/'>GitHub</a></Button>
                 <Button colored> Codepen</Button>
                 <Button colored> LiveDemo</Button>
               </CardActions>
@@ -52,7 +52,7 @@ const ProjectItem = () =>{
               </CardText>
 
               <CardActions border>
-                <Button colored> GitHub</Button>
+                <Button colored> <a href='https://react-phone-store-recorded.netlify.com/'> GitHub </a> </Button>
                 <Button colored> Codepen</Button>
                 <Button colored> LiveDemo</Button>
               </CardActions>

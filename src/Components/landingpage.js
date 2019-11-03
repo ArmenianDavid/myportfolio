@@ -1,6 +1,7 @@
 import React , {Component} from 'react'
 import {Grid,Cell} from 'react-mdl'
 import avatar from '../img/avatar.jpg'
+import sample from './video.mp4';
 
 
 class Landing extends Component{
@@ -14,9 +15,14 @@ class Landing extends Component{
     render(){
       return(
         <div style={{width:'100%' , margin:'auto'}}>
+         
+
+          <video className='videoTag' autoPlay loop muted  >
+              <source src={sample} type='video/mp4' />
+          </video>
           <Grid className='landing-grid'>
+             
              <Cell col={12}>
-              
                <img 
                  src={avatar}
                  alt='avatar'
@@ -52,6 +58,7 @@ class Landing extends Component{
 
                   </div>
                </div>
+               
 
                
 
