@@ -142,6 +142,11 @@ a{
   background-position: center;
   background-size: cover;
 }
+.bg-image4{
+  background-image: url(./img/project4.png);
+  background-position: center;
+  background-size: cover;
+}
 
 /* ////////////////////////////////////////////////////////// */
 /* Contact                                                   */
@@ -187,6 +192,55 @@ a{
 .contact-list i{
    font-size: 45px;
    padding-right: 5rem;
+}
+
+@media only screen and (max-width: 1039px){
+  .contact-list i{
+    font-size: 35px;
+    padding-right: 2rem;
+ }
+  .listItemContent span{
+    font-size: 1.9rem;
+  }
+}
+
+@media only screen and (max-width: 839px){
+  .contact-list i{
+    font-size: 30px;
+    padding-right: 2rem;
+ }
+  .listItemContent span{
+    font-size: 1.8rem;
+  }
+}
+
+@media only screen and (max-width: 720px){
+  .contact-list i{
+    font-size: 30px;
+    padding-right: 1.5rem;
+ }
+  .listItemContent span{
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 590px){
+  .contact-list i{
+    font-size: 25px;
+    padding-right: 1rem;
+ }
+  .listItemContent span{
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 400px){
+  .contact-list i{
+    font-size: 20px;
+    padding-right: 0.7rem;
+ }
+  .listItemContent span{
+    font-size: 0.7rem;
+  }
 }
 
 

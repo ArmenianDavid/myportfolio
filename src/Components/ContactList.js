@@ -19,7 +19,6 @@ const ContactList = () =>{
                       <span>sahakyandavit92@gmail.com</span>
                     </ListItemContent>
                 </ListItem>
-                <i class="fab fa-viber"></i>
 
           </List>
       </div>
