@@ -42,9 +42,9 @@ a{
 
 .avatar-image{
   margin-top: 5em;
-  height: 250px;
-  border-bottom: 1px solid white;
-  border-radius:50%;
+  height: 300px;
+  /* border-bottom: 1px solid white; */
+  border-radius: 45% ;
 }
 
 .banner-text{
