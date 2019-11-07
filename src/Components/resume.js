@@ -87,7 +87,7 @@ class Resume extends Component{
                       schoolDescription=" Js , React"
                       />  
                       <hr className='resume-hr'/>
-                      <h2>{data === engData ? 'Experiance' : 'Опыт работы' }</h2>
+                      <h2>{data === engData ? 'Experience' : 'Опыт работы' }</h2>
                     <Experiance 
                        startYear='2016'
                        endYear='2018'
