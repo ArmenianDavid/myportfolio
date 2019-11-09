@@ -147,6 +147,12 @@ a{
   background-position: center;
   background-size: cover;
 }
+.bg-image5{
+  background-image: url(./img/project5.png);
+  background-position: center;
+  background-size: cover;
+}
+
 
 /* ////////////////////////////////////////////////////////// */
 /* Contact                                                   */
