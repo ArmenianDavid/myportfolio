@@ -152,6 +152,11 @@ a{
   background-position: center;
   background-size: cover;
 }
+.bg-image6{
+  background-image: url(./img/project6.png);
+  background-position: center;
+  background-size: cover;
+}
 
 
 /* ////////////////////////////////////////////////////////// */
