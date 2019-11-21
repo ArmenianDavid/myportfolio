@@ -7,6 +7,8 @@ import Skills from './Common/Skills'
 import {engData} from './Data/engData'
 import {rusData} from './Data/rusData'
 
+import './Data/button.css';
+
 
 class Resume extends Component{
     constructor(){
@@ -44,7 +46,12 @@ class Resume extends Component{
                   <div className='resume-left-div'>
                      <img src={avatar} alt='avatar' className='resume-avatar'/>
                   </div>
-                  <button style={{color : 'blue'}} onClick={this.changeLanguage}>{this.state.language}</button>
+                  <button id="btn"  onClick={this.changeLanguage}>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    {this.state.language}</button>
                   <h2 className='resume-fullname'>{this.state.data.resume_fullname}</h2>
                   <h4 className='resume-profession'>{this.state.data.resume_profession}</h4>
                   <hr className='resume-hr'/>
