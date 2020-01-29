@@ -280,6 +280,50 @@ const ProjectItem = () =>{
           <IconButton name="share" />
         </CardMenu>
       </Card>
+       {/* Project7*/}
+       <Card
+        shadow={5}
+        style={{ minWidth: "450", margin: "auto", padding: "10px" }}
+      >
+        <a
+          href="https://armeniandavid.github.io/todo"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {" "}
+          <CardTitle
+            className="bg-image5"
+            style={{ color: "#009fff", height: "176px" }}
+          >
+            {" "}
+            React Project #7{" "}
+          </CardTitle>{" "}
+        </a>
+
+        <CardText>
+          Կատարելիք գործերի ցուցակ: Ցուցակում կարղ եք ավելացնել ջնջձլ կամ ֆիլտրել ցանկը: 
+        </CardText>
+
+        <CardActions border>
+          <Button colored>
+            {" "}
+            <a
+              href="https://github.com/ArmenianDavid/todo"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {" "}
+              GitHub{" "}
+            </a>{" "}
+          </Button>
+          <Button colored> Codepen</Button>
+          <Button colored> LiveDemo</Button>
+        </CardActions>
+
+        <CardMenu style={{ color: "#fff" }}>
+          <IconButton name="share" />
+        </CardMenu>
+      </Card>
     </div>
   );
 }
