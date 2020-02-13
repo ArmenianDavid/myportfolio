@@ -19,7 +19,7 @@ const ProjectItem = () =>{
         style={{ minWidth: "450", margin: "auto", padding: "10px" }}
       >
         <a
-          href="https://armeniandavid.github.io/project2/"
+          href="https://davitsahakyan.github.io/project2/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -41,7 +41,7 @@ const ProjectItem = () =>{
           <Button colored>
             {" "}
             <a
-              href="https://github.com/ArmenianDavid/project2"
+              href="https://davitsahakyan.github.io/project2/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -64,7 +64,7 @@ const ProjectItem = () =>{
         style={{ minWidth: "450", margin: "auto", padding: "10px" }}
       >
         <a
-          href="https://armeniandavid.github.io/Crypto/"
+          href="https://davitsahakyan.github.io/Crypto/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -86,7 +86,7 @@ const ProjectItem = () =>{
           <Button colored>
             {" "}
             <a
-              href="https://github.com/ArmenianDavid/Crypto"
+              href="https://davitsahakyan.github.io/Crypto/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -130,7 +130,7 @@ const ProjectItem = () =>{
           <Button colored>
             {" "}
             <a
-              href="https://github.com/ArmenianDavid/react-phone-store"
+              href="https://react-phone-store-recorded.netlify.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -153,7 +153,7 @@ const ProjectItem = () =>{
         style={{ minWidth: "450", margin: "auto", padding: "10px" }}
       >
         <a
-          href="https://armeniandavid.github.io/hello/"
+          href="https://davitsahakyan.github.io/hello/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -175,7 +175,7 @@ const ProjectItem = () =>{
           <Button colored>
             {" "}
             <a
-              href="https://github.com/ArmenianDavid/hello"
+              href="https://davitsahakyan.github.io//hello"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -198,7 +198,7 @@ const ProjectItem = () =>{
         style={{ minWidth: "450", margin: "auto", padding: "10px" }}
       >
         <a
-          href="https://armeniandavid.github.io/recipes"
+          href="https://davitsahakyan.github.io/recipes"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -221,7 +221,7 @@ const ProjectItem = () =>{
           <Button colored>
             {" "}
             <a
-              href="https://github.com/ArmenianDavid/recipe"
+              href="https://github.com/davitSahakyan/recipe"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -244,7 +244,7 @@ const ProjectItem = () =>{
         style={{ minWidth: "450", margin: "auto", padding: "10px" }}
       >
         <a
-          href="https://armeniandavid.github.io/snakegame/"
+          href="https://davitsahakyan.github.io/snakegame/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -264,7 +264,7 @@ const ProjectItem = () =>{
           <Button colored>
             {" "}
             <a
-              href="https://github.com/ArmenianDavid/snakegame"
+              href="https://github.com/davitSahakyan/snakegame"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -286,7 +286,7 @@ const ProjectItem = () =>{
         style={{ minWidth: "450", margin: "auto", padding: "10px" }}
       >
         <a
-          href="https://armeniandavid.github.io/todo"
+          href="https://davitsahakyan.github.io/todo"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -308,7 +308,7 @@ const ProjectItem = () =>{
           <Button colored>
             {" "}
             <a
-              href="https://github.com/ArmenianDavid/todo"
+              href="https://github.com/davitSahakyan/todo"
               target="_blank"
               rel="noopener noreferrer"
             >
