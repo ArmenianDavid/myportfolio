@@ -19,7 +19,7 @@ const ProjectItem = () =>{
         style={{ minWidth: "450", margin: "auto", padding: "10px" }}
       >
         <a
-          href="https://davitsahakyan.github.io/project2/"
+          href="https://davitsahakyan.github.io/honey/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -41,7 +41,7 @@ const ProjectItem = () =>{
           <Button colored>
             {" "}
             <a
-              href="https://davitsahakyan.github.io/project2/"
+              href="https://github.com/davitSahakyan/honey"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -86,7 +86,7 @@ const ProjectItem = () =>{
           <Button colored>
             {" "}
             <a
-              href="https://davitsahakyan.github.io/Crypto/"
+              href="https://github.com/davitSahakyan/Crypto"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -130,7 +130,7 @@ const ProjectItem = () =>{
           <Button colored>
             {" "}
             <a
-              href="https://react-phone-store-recorded.netlify.com/"
+              href="https://github.com/davitSahakyan/react-phone-store"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -153,7 +153,7 @@ const ProjectItem = () =>{
         style={{ minWidth: "450", margin: "auto", padding: "10px" }}
       >
         <a
-          href="https://davitsahakyan.github.io/hello/"
+          href="https://davitsahakyan.github.io/anime-test-2/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -175,7 +175,7 @@ const ProjectItem = () =>{
           <Button colored>
             {" "}
             <a
-              href="https://davitsahakyan.github.io//hello"
+              href="https://github.com/davitSahakyan/anime-test-2"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -221,7 +221,7 @@ const ProjectItem = () =>{
           <Button colored>
             {" "}
             <a
-              href="https://github.com/davitSahakyan/recipe"
+              href="https://github.com/davitSahakyan/recipes"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -254,7 +254,7 @@ const ProjectItem = () =>{
             style={{ color: "#009fff", height: "176px" }}
           >
             {" "}
-            React Project #5{" "}
+            React Project #6{" "}
           </CardTitle>{" "}
         </a>
 
@@ -292,7 +292,7 @@ const ProjectItem = () =>{
         >
           {" "}
           <CardTitle
-            className="bg-image5"
+            className="bg-image7"
             style={{ color: "#009fff", height: "176px" }}
           >
             {" "}
