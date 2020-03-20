@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/myportfolio/static/css/main.ff752514.chunk.css",
-    "main.js": "/myportfolio/static/js/main.4c8186be.chunk.js",
-    "main.js.map": "/myportfolio/static/js/main.4c8186be.chunk.js.map",
+    "main.css": "/myportfolio/static/css/main.bfc9bb7d.chunk.css",
+    "main.js": "/myportfolio/static/js/main.ad46d6a8.chunk.js",
+    "main.js.map": "/myportfolio/static/js/main.ad46d6a8.chunk.js.map",
     "runtime-main.js": "/myportfolio/static/js/runtime-main.99d0ae82.js",
     "runtime-main.js.map": "/myportfolio/static/js/runtime-main.99d0ae82.js.map",
     "static/css/2.04aae6c4.chunk.css": "/myportfolio/static/css/2.04aae6c4.chunk.css",
-    "static/js/2.90136cc5.chunk.js": "/myportfolio/static/js/2.90136cc5.chunk.js",
-    "static/js/2.90136cc5.chunk.js.map": "/myportfolio/static/js/2.90136cc5.chunk.js.map",
+    "static/js/2.3635c919.chunk.js": "/myportfolio/static/js/2.3635c919.chunk.js",
+    "static/js/2.3635c919.chunk.js.map": "/myportfolio/static/js/2.3635c919.chunk.js.map",
     "index.html": "/myportfolio/index.html",
-    "precache-manifest.aed063d4bc3122c88dcec3af708eec18.js": "/myportfolio/precache-manifest.aed063d4bc3122c88dcec3af708eec18.js",
+    "precache-manifest.c42e2c76ee3b985cfa65b7ecaab35a21.js": "/myportfolio/precache-manifest.c42e2c76ee3b985cfa65b7ecaab35a21.js",
     "service-worker.js": "/myportfolio/service-worker.js",
     "static/css/2.04aae6c4.chunk.css.map": "/myportfolio/static/css/2.04aae6c4.chunk.css.map",
-    "static/css/main.ff752514.chunk.css.map": "/myportfolio/static/css/main.ff752514.chunk.css.map",
+    "static/css/main.bfc9bb7d.chunk.css.map": "/myportfolio/static/css/main.bfc9bb7d.chunk.css.map",
     "static/media/avatar.jpg": "/myportfolio/static/media/avatar.7bdc5f79.jpg",
-    "static/media/App.css": "/myportfolio/static/media/project7.8335a6d6.png",
+    "static/media/blog.png": "/myportfolio/static/media/blog.bafbd856.png",
+    "static/media/honey.png": "/myportfolio/static/media/honey.a5492654.png",
     "static/media/video.mp4": "/myportfolio/static/media/video.39ecb375.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.99d0ae82.js",
     "static/css/2.04aae6c4.chunk.css",
-    "static/js/2.90136cc5.chunk.js",
-    "static/css/main.ff752514.chunk.css",
-    "static/js/main.4c8186be.chunk.js"
+    "static/js/2.3635c919.chunk.js",
+    "static/css/main.bfc9bb7d.chunk.css",
+    "static/js/main.ad46d6a8.chunk.js"
   ]
 }
