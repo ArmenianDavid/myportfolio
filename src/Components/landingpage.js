@@ -1,72 +1,69 @@
-import React , {Component} from 'react'
-import {Grid,Cell} from 'react-mdl'
-import avatar from '../img/avatar.jpg'
-import sample from './video.mp4';
+import React, { Component } from "react";
+import { Grid, Cell } from "react-mdl";
+import avatar from "../img/avatar.jpg";
+import sample from "./video.mp4";
 
-
-class Landing extends Component{
-    constructor(){
-      super()
-      this.state={
-
-      }
+class Landing extends Component {
+    constructor() {
+        super();
+        this.state = {};
     }
 
-    render(){
-      return(
-        <div style={{width:'100%' , margin:'auto'}}>
-         
+    render() {
+        return (
+            <div style={{ width: "100%", margin: "auto" }}>
+                <video className="videoTag" autoPlay loop muted>
+                    <source src={sample} type="video/mp4" />
+                </video>
+                <Grid className="landing-grid">
+                    <Cell col={12}>
+                        <img
+                            src={avatar}
+                            alt="avatar"
+                            className="avatar-image"
+                        />
 
-          <video className='videoTag' autoPlay loop muted  >
-              <source src={sample} type='video/mp4' />
-          </video>
-          <Grid className='landing-grid'>
-             
-             <Cell col={12}>
-               <img 
-                 src={avatar}
-                 alt='avatar'
-                 className='avatar-image'/>
-               
-               <div className='banner-text'>
-                  <h1> Front-End Web Developer</h1>
+                        <div className="banner-text">
+                            <h1> Front-End Web Developer</h1>
 
-                  <hr/>
-  
-                  <p>
-                    HTML/CSS | BOOTSTRAP | JavaScript | React | NodeJS | GitGub  
-                  </p>
+                            <hr />
 
-                  <div className='sacial-links'>
-                    
-                    {/* {Linkedin } */}
-                     <a href='https://www.linkedin.com/in/davit-sahakyan-364a51184/'
-                        target='_blank' 
-                        rel='noopener noreferrer'> 
-                          
-                           <i className='fa fa-linkedin-square' area-hidden='true' />
-                     </a>
+                            <p>
+                                HTML/CSS | BOOTSTRAP | JavaScript | React |
+                                NodeJS | GitGub
+                            </p>
 
-                     {/* {Github } */}
-                     <a href='https://github.com/ArmenianDavid'
-                        target='_blank'
-                        rel='noopener noreferrer'> 
-                         
-                          <i className='fa fa-github-square' area-hidden='true' />
-                     </a>
+                            <div className="sacial-links">
+                                {/* {Linkedin } */}
+                                <a
+                                    href="https://www.linkedin.com/in/davit-sahakyan-364a51184/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <i
+                                        className="fa fa-linkedin-square"
+                                        area-hidden="true"
+                                    />
+                                </a>
 
-
-                  </div>
-               </div>
-               
-
-               
-
-             </Cell>
-          </Grid>
-        </div>
-      )
+                                {/* {Github } */}
+                                <a
+                                    href="https://github.com/ArmenianDavid"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <i
+                                        className="fa fa-github-square"
+                                        area-hidden="true"
+                                    />
+                                </a>
+                            </div>
+                        </div>
+                    </Cell>
+                </Grid>
+            </div>
+        );
     }
 }
 
-export default Landing
+export default Landing;
