@@ -1,5 +1,6 @@
 // images
 import blog from "../../img/blog.png";
+import honey from "../../img/honey.png";
 
 export const reactProjectsData = [
     {
@@ -8,5 +9,12 @@ export const reactProjectsData = [
         img: blog,
         description: `Blog is created by Davit Sahakyan using tools like MaterialUi , LocalStorage.`,
         github: "https://github.com/davitSahakyan/simple-blog"
+    },
+    {
+        id: 2,
+        demoLink: "https://davitsahakyan.github.io/honey/",
+        img: honey,
+        description: `Honey is nature's finest work. Discover honey recipes, where to buy honey, information about honeybees, and resources for honey professionals.`,
+        github: "https://github.com/davitSahakyan/honey"
     }
 ];
