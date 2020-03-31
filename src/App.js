@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
-import Main from "./Components/main";
+import Main from "./Components/Main";
 import { Link } from "react-router-dom";
 
 const App = () => {

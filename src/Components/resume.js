@@ -4,8 +4,8 @@ import avatar from "../img/avatar.jpg";
 import Education from "./Common/Education";
 import Experiance from "./Common/Experiance";
 import Skills from "./Common/Skills";
-import { engData } from "./Data/engData";
-import { rusData } from "./Data/rusData";
+import { engData } from "./Data/EngData";
+import { rusData } from "./Data/RusData";
 
 import "./Data/button.css";
 
