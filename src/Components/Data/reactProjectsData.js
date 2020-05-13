@@ -2,6 +2,7 @@
 import blog from "../../img/blog.png";
 import honey from "../../img/honey.png";
 import hotelRooms from "../../img/hotelRooms.png";
+import test from "../../img/test.png";
 
 export const reactProjectsData = [
     {
@@ -24,5 +25,12 @@ export const reactProjectsData = [
         img: hotelRooms,
         description: `In this site you can search for a room that matches to your needs.`,
         github: "https://github.com/davitSahakyan/hotel-rooms",
+    },
+    {
+        id: 4,
+        demoLink: "https://davitsahakyan.github.io/anime-test-2/",
+        img: test,
+        description: `So, how well do you know anime? Take this kawaii quiz to find out!`,
+        github: "https://github.com/davitSahakyan/anime-test-2",
     },
 ];
