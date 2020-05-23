@@ -4,6 +4,11 @@ import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
 import Main from "./Components/Main";
 import { Link } from "react-router-dom";
 
+const RESUME_LINK_TEXT = "Resume";
+const PROJECT_LINK_TEXT = "Projects";
+const CONTAXT_LINK_TEXT = "Contacts";
+const LOGO_MY_PORTFOLIO_TEXT = "MyPortfolio";
+
 const App = () => {
     return (
         <div className="demo-big-content">
@@ -15,15 +20,15 @@ const App = () => {
                             style={{ textDecoration: "none", color: "white" }}
                             to="/myportfolio"
                         >
-                            MyPortfolio
+                            {LOGO_MY_PORTFOLIO_TEXT}
                         </Link>
                     }
                     scroll
                 >
                     <Navigation>
-                        <Link to="/resume">Resume</Link>
-                        <Link to="/projects">Projects</Link>
-                        <Link to="/contact">Contacts</Link>
+                        <Link to="/resume">{RESUME_LINK_TEXT}</Link>
+                        <Link to="/projects">{PROJECT_LINK_TEXT}</Link>
+                        <Link to="/contact">{CONTAXT_LINK_TEXT}</Link>
                     </Navigation>
                 </Header>
                 <Drawer
@@ -32,14 +37,14 @@ const App = () => {
                             style={{ textDecoration: "none", color: "blue" }}
                             to="/myportfolio"
                         >
-                            MyPortfolio
+                            {LOGO_MY_PORTFOLIO_TEXT}
                         </Link>
                     }
                 >
                     <Navigation>
-                        <Link to="/resume">Resume</Link>
-                        <Link to="/projects">Projects</Link>
-                        <Link to="/contact">Contacts</Link>
+                        <Link to="/resume">{RESUME_LINK_TEXT}</Link>
+                        <Link to="/projects">{PROJECT_LINK_TEXT}</Link>
+                        <Link to="/contact">{CONTAXT_LINK_TEXT}</Link>
                     </Navigation>
                 </Drawer>
                 <Content>
