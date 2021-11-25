@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
-import avatar from "../img/avatar.jpg";
-import sample from "./video.mp4";
+import avatar from "../../assets/img/avatar.jpg";
 
 class Landing extends Component {
     constructor() {
@@ -12,9 +11,6 @@ class Landing extends Component {
     render() {
         return (
             <div style={{ width: "100%", margin: "auto" }}>
-                <video className="videoTag" autoPlay loop muted>
-                    <source src={sample} type="video/mp4" />
-                </video>
                 <Grid className="landing-grid">
                     <Cell col={12}>
                         <img
@@ -29,7 +25,7 @@ class Landing extends Component {
                             <hr />
 
                             <p>
-                                HTML/CSS | BOOTSTRAP | JavaScript | React |
+                                HTML/CSS | JS | ES6+ | Angular | React | Ngrx |
                                 NodeJS | GitGub
                             </p>
 
@@ -48,7 +44,7 @@ class Landing extends Component {
 
                                 {/* {Github } */}
                                 <a
-                                    href="https://github.com/ArmenianDavid"
+                                    href="https://github.com/davitSahakyan"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >

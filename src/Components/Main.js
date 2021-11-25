@@ -1,9 +1,9 @@
 import React from "react";
-import Landing from "./Landingpage";
-import { Switch, Route } from "react-router-dom";
-import Contact from "./Contact";
-import Projects from "./Projects";
-import Resume from "./Resume";
+import Landing from "./Pages/Landingpage";
+import { Switch, Route, Redirect } from "react-router-dom";
+import Contact from "./Pages/Contact";
+import Projects from "./Pages/Projects";
+import Resume from "./Pages/Resume";
 
 const Main = () => {
     return (
@@ -12,6 +12,7 @@ const Main = () => {
             <Route path="/contact" component={Contact} />
             <Route path="/projects" component={Projects} />
             <Route path="/resume" component={Resume} />
+            <Route path='*' render={() => (<Redirect to="/myportfolio"/>)} />
         </Switch>
     );
 };

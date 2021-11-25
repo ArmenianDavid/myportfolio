@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
-import avatar from "../img/avatar.jpg";
-import ContactList from "./ContactList";
+import avatar from "../../assets/img/avatar.jpg";
+import ContactList from "../Common/ContactList";
 
 class Contact extends Component {
     constructor() {

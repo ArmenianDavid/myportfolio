@@ -1,9 +1,9 @@
 // images
-import blog from "../../img/blog.png";
-import honey from "../../img/honey.png";
-import hotelRooms from "../../img/hotelRooms.png";
-import recipe from "../../img/recipe.png";
-import test from "../../img/test.png";
+import blog from "../img/blog.png";
+import honey from "../img/honey.png";
+import hotelRooms from "../img/hotelRooms.png";
+import recipe from "../img/recipe.png";
+import test from "../img/test.png";
 
 export const reactProjectsData = [
     {

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Tabs, Tab, Grid, Cell } from "react-mdl";
-import ProjectsReact from "./ProjectsReact";
+import ProjectItem from "../PortfolioProjects/ProjectItems";
+import { reactProjectsData } from "../../assets/data/reactProjectsData.js"
 
 class Projects extends Component {
     constructor(props) {
@@ -11,7 +12,7 @@ class Projects extends Component {
     }
     toggleCategories = () => {
         if (this.state.activeTab === 0) {
-            return <ProjectsReact />;
+            return <ProjectItem data={reactProjectsData}/>;
         } else if (this.state.activeTab === 1) {
             return (
                 <div>

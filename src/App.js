@@ -1,8 +1,8 @@
 import React from "react";
 import "./App.css";
 import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
-import Main from "./Components/Main";
 import { Link } from "react-router-dom";
+import Main from "./Components/Main";
 
 const RESUME_LINK_TEXT = "Resume";
 const PROJECT_LINK_TEXT = "Projects";
@@ -49,7 +49,7 @@ const App = () => {
                 </Drawer>
                 <Content>
                     <div className="page-content" />
-                    <Main />
+                    <Main/>
                 </Content>
             </Layout>
         </div>
