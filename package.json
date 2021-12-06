@@ -4,6 +4,8 @@
     "private": true,
     "homepage": "https://davitSahakyan.github.io/myportfolio",
     "dependencies": {
+        "browserslist": "^4.18.1",
+        "caniuse-lite": "^1.0.30001283",
         "gh-pages": "^2.2.0",
         "react": "^16.14.0",
         "react-dom": "^16.14.0",
